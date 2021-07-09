@@ -12,7 +12,15 @@
 					<key>Enabled</key>
 					<true />
 					<key>Path</key>
-					<string>SSDT-AWAC.aml</string>
+					<string>SSDT-PLUG.aml</string>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Read the comment in dsl sample</string>
+					<key>Enabled</key>
+					<true />
+					<key>Path</key>
+					<string>SSDT-PMC.aml</string>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -23,20 +31,12 @@
 					<string>SSDT-EC-USBX.aml</string>
 				</dict>
 				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
 					<key>Enabled</key>
 					<true />
-					<key>Path</key>
-					<string>SSDT-PLUG.aml</string>
-				</dict>
-				<dict>
 					<key>Comment</key>
 					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<true />
 					<key>Path</key>
-					<string>SSDT-PMC.aml</string>
+					<string>SSDT-AWAC.aml</string>
 				</dict>
 			</array>
 			<key>Delete</key>
@@ -54,8 +54,6 @@
 				<key>ResetHwSig</key>
 				<false />
 				<key>ResetLogoStatus</key>
-				<true />
-				<key>SyncTableIds</key>
 				<false />
 			</dict>
 		</dict>
@@ -75,7 +73,7 @@
 					<key>Address</key>
 					<integer>4278190080</integer>
 					<key>Comment</key>
-					<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
+					<string>Generic: PCI root is a 0x1000 page memory region used by some firmwares</string>
 					<key>Enabled</key>
 					<false />
 				</dict>
@@ -124,8 +122,6 @@
 				<key>EnableSafeModeSlide</key>
 				<true />
 				<key>EnableWriteUnprotector</key>
-				<false />
-				<key>ForceBooterSignature</key>
 				<false />
 				<key>ForceExitBootServices</key>
 				<false />
@@ -192,8 +188,6 @@
 			<key>Add</key>
 			<array>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>Lilu.kext</string>
 					<key>Comment</key>
@@ -205,13 +199,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>VirtualSMC.kext</string>
 					<key>Comment</key>
@@ -223,13 +215,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>WhateverGreen.kext</string>
 					<key>Comment</key>
@@ -241,13 +231,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>AppleALC.kext</string>
 					<key>Comment</key>
@@ -259,31 +247,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>AppleALCU.kext</string>
-					<key>Comment</key>
-					<string>Audio patches</string>
-					<key>Enabled</key>
-					<true />
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/AppleALCU</string>
-					<key>MaxKernel</key>
 					<string></string>
-					<key>MinKernel</key>
-					<string>20.0.0</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>USBInjectAll.kext</string>
 					<key>Comment</key>
@@ -295,13 +263,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>RealtekRTL8111.kext</string>
 					<key>Comment</key>
@@ -313,13 +279,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>SMCProcessor.kext</string>
 					<key>Comment</key>
@@ -331,13 +295,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>SMCSuperIO.kext</string>
 					<key>Comment</key>
@@ -349,13 +311,11 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
 					<key>BundlePath</key>
 					<string>XHCI-unsupported.kext</string>
 					<key>Comment</key>
@@ -367,7 +327,7 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>20.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
@@ -655,7 +615,7 @@
 				<key>DisableLinkeditJettison</key>
 				<true />
 				<key>DisableRtcChecksum</key>
-				<false />
+				<true />
 				<key>ExtendBTFeatureFlags</key>
 				<false />
 				<key>ExternalDiskIcons</key>
@@ -672,8 +632,6 @@
 				<true />
 				<key>PowerTimeoutKernelPanic</key>
 				<true />
-				<key>ProvideCurrentCpuInfo</key>
-				<false />
 				<key>SetApfsTrimTimeout</key>
 				<integer>-1</integer>
 				<key>ThirdPartyDrives</key>
@@ -683,8 +641,6 @@
 			</dict>
 			<key>Scheme</key>
 			<dict>
-				<key>CustomKernel</key>
-				<false />
 				<key>FuzzyMatch</key>
 				<true />
 				<key>KernelArch</key>
@@ -710,7 +666,7 @@
 				<key>LauncherPath</key>
 				<string>Default</string>
 				<key>PickerAttributes</key>
-				<integer>17</integer>
+				<integer>1</integer>
 				<key>PickerAudioAssist</key>
 				<false />
 				<key>PickerMode</key>
@@ -756,8 +712,6 @@
 					<string>Not signed for security reasons</string>
 					<key>Enabled</key>
 					<false />
-					<key>Flavour</key>
-					<string>Auto</string>
 					<key>Name</key>
 					<string>CustomOS</string>
 					<key>Path</key>
@@ -772,8 +726,6 @@
 				<true />
 				<key>AllowSetDefault</key>
 				<true />
-				<key>AllowToggleSip</key>
-				<false />
 				<key>ApECID</key>
 				<integer>0</integer>
 				<key>AuthRestart</key>
@@ -810,16 +762,10 @@
 					<string>Not signed for security reasons</string>
 					<key>Enabled</key>
 					<false />
-					<key>Flavour</key>
-					<string>OpenShell:UEFIShell:Shell</string>
 					<key>Name</key>
 					<string>UEFI Shell</string>
 					<key>Path</key>
 					<string>OpenShell.efi</string>
-					<key>RealPath</key>
-					<false />
-					<key>TextMode</key>
-					<false />
 				</dict>
 			</array>
 		</dict>
@@ -848,11 +794,9 @@
 					<key>csr-active-config</key>
 					<data>AAAAAA==</data>
 					<key>prev-lang:kbd</key>
-					<string>en-US:0</string>
+					<data>ZW4tVVM6MA==</data>
 					<key>run-efi-updater</key>
 					<string>No</string>
-					<key>ForceDisplayRotationInEFI</key>
-					<integer>0</integer>
 				</dict>
 			</dict>
 			<key>Delete</key>
@@ -869,7 +813,6 @@
 				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 				<array>
 					<string>boot-args</string>
-					<string>ForceDisplayRotationInEFI</string>
 				</array>
 			</dict>
 			<key>LegacyEnable</key>
@@ -915,7 +858,7 @@
 			<false />
 			<key>Generic</key>
 			<dict>
-				<key>AdviseFeatures</key>
+				<key>AdviseWindows</key>
 				<false />
 				<key>MaxBIOSVersion</key>
 				<false />
@@ -963,21 +906,6 @@
 				<integer>0</integer>
 				<key>MinVersion</key>
 				<integer>0</integer>
-			</dict>
-			<key>AppleInput</key>
-			<dict>
-				<key>AppleEvent</key>
-				<string>Builtin</string>
-				<key>CustomDelays</key>
-				<false />
-				<key>KeyInitialDelay</key>
-				<integer>50</integer>
-				<key>KeySubsequentDelay</key>
-				<integer>5</integer>
-				<key>PointerSpeedDiv</key>
-				<integer>1</integer>
-				<key>PointerSpeedMul</key>
-				<integer>1</integer>
 			</dict>
 			<key>Audio</key>
 			<dict>
@@ -1037,7 +965,7 @@
 				<key>ForceResolution</key>
 				<false />
 				<key>GopPassThrough</key>
-				<string>Disabled</string>
+				<false />
 				<key>IgnoreTextInGraphics</key>
 				<false />
 				<key>ProvideConsoleGop</key>
@@ -1063,7 +991,7 @@
 				<false />
 				<key>AppleDebugLog</key>
 				<false />
-				<key>AppleEg2Info</key>
+				<key>AppleEvent</key>
 				<false />
 				<key>AppleFramebufferInfo</key>
 				<false />
@@ -1100,17 +1028,11 @@
 				<false />
 				<key>DisableSecurityPolicy</key>
 				<false />
-				<key>EnableVectorAcceleration</key>
-				<true />
 				<key>ExitBootServicesDelay</key>
 				<integer>0</integer>
-				<key>ForgeUefiSupport</key>
-				<false />
 				<key>IgnoreInvalidFlexRatio</key>
 				<false />
 				<key>ReleaseUsbOwnership</key>
-				<false />
-				<key>ReloadOptionRoms</key>
 				<false />
 				<key>RequestBootVarRouting</key>
 				<true />
