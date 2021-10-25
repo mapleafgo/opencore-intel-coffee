@@ -960,9 +960,9 @@
 				<key>JumpstartHotPlug</key>
 				<false />
 				<key>MinDate</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 				<key>MinVersion</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 			</dict>
 			<key>AppleInput</key>
 			<dict>
@@ -1006,6 +1006,8 @@
 			<array>
 				<string>OpenRuntime.efi</string>
 				<string>OpenCanopy.efi</string>
+				<string>OpenHfsPlus.efi</string>
+				<string>OpenLinuxBoot.efi</string>
 			</array>
 			<key>Input</key>
 			<dict>
