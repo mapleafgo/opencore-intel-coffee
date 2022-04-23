@@ -254,26 +254,32 @@
 				<dict>
 					<key>AAPL,ig-platform-id</key>
 					<data>BwCbPg==</data>
-					<key>device-id</key>
-					<data>mz4AAA==</data>
 					<key>disable-external-gpu</key>
 					<data>AQAAAA==</data>
 					<key>enable-cfl-backlight-fix</key>
 					<data>AQAAAA==</data>
 					<key>force-online</key>
 					<data>AQAAAA==</data>
-					<key>framebuffer-con0-alldata</key>
-					<data>AwQSAAAIAADHAwAA</data>
-					<key>framebuffer-con0-enable</key>
-					<data>AQAAAA==</data>
 					<key>framebuffer-patch-enable</key>
-					<data>AQAAAA==</data>
-					<key>framebuffer-portcount</key>
 					<data>AQAAAA==</data>
 					<key>framebuffer-unifiedmem</key>
 					<data>AAAAgA==</data>
 					<key>igfxfw</key>
 					<data>AgAAAA==</data>
+					<key>framebuffer-stolenmem</key>
+					<data>AAAwAQ==</data>
+					<key>framebuffer-con2-enable</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-con2-alldata</key>
+					<data>AwQIAAAIAADHAwAA</data>
+					<key>framebuffer-con0-enable</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-con0-alldata</key>
+					<data>AQAJAAAEAADHAwAA</data>
+					<key>framebuffer-con1-enable</key>
+					<data>AQAAAA==</data>
+					<key>framebuffer-con1-alldata</key>
+					<data>AgAKAAAEAADHAwAA</data>
 				</dict>
 			</dict>
 			<key>Delete</key>
@@ -743,7 +749,7 @@
 				<key>AppleXcpmForceBoost</key>
 				<false />
 				<key>CustomPciSerialDevice</key>
-				<false/>
+				<false />
 				<key>CustomSMBIOSGuid</key>
 				<false />
 				<key>DisableIoMapper</key>
@@ -757,7 +763,7 @@
 				<key>ExternalDiskIcons</key>
 				<false />
 				<key>ForceAquantiaEthernet</key>
-				<false/>
+				<false />
 				<key>ForceSecureBootScheme</key>
 				<false />
 				<key>IncreasePciBarSize</key>
@@ -902,9 +908,9 @@
 			<key>Serial</key>
 			<dict>
 				<key>Init</key>
-				<false/>
+				<false />
 				<key>Override</key>
-				<false/>
+				<false />
 			</dict>
 			<key>Tools</key>
 			<array>
