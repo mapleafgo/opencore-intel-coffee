@@ -253,33 +253,17 @@
 				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 				<dict>
 					<key>AAPL,ig-platform-id</key>
-					<data>BwCbPg==</data>
+					<data>AACSPg==</data>
 					<key>disable-external-gpu</key>
-					<data>AQAAAA==</data>
-					<key>enable-cfl-backlight-fix</key>
-					<data>AQAAAA==</data>
-					<key>force-online</key>
-					<data>AQAAAA==</data>
-					<key>framebuffer-patch-enable</key>
 					<data>AQAAAA==</data>
 					<key>framebuffer-unifiedmem</key>
 					<data>AAAAgA==</data>
-					<key>igfxfw</key>
-					<data>AgAAAA==</data>
-					<key>framebuffer-stolenmem</key>
-					<data>AAAwAQ==</data>
+					<key>framebuffer-patch-enable</key>
+					<data>AQAAAA==</data>
 					<key>framebuffer-con2-enable</key>
 					<data>AQAAAA==</data>
-					<key>framebuffer-con2-alldata</key>
-					<data>AwQIAAAIAADHAwAA</data>
-					<key>framebuffer-con0-enable</key>
-					<data>AQAAAA==</data>
-					<key>framebuffer-con0-alldata</key>
-					<data>AQAJAAAEAADHAwAA</data>
-					<key>framebuffer-con1-enable</key>
-					<data>AQAAAA==</data>
-					<key>framebuffer-con1-alldata</key>
-					<data>AgAKAAAEAADHAwAA</data>
+					<key>framebuffer-con2-type</key>
+					<data>AAgAAA==</data>
 				</dict>
 			</dict>
 			<key>Delete</key>
